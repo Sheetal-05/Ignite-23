@@ -1,8 +1,25 @@
+@font-face {
+  font-family: 'customfont';
+  src: url('font.ttf');
+}
+
 body {
   font-family: Georgia;
   margin: 0;
 }
+.title{
+  font-size: 2vw;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.fest-title{
+  font-family: 'customfont',sans-serif;
+  font-size: 10vw;
+  margin: 0;
+}
 
+.carousel-caption{
+  margin-bottom: 10%;
+}
 .wrapper {
   width: 100%;
   max-width: 1080px;
